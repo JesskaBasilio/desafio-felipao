@@ -1,5 +1,5 @@
-let nome = "Jessica";
-let xp = 9610;
+let nome = {};
+let xp = {};
 
 if (xp <= 1000) {
     xp = "Ferro";
@@ -19,5 +19,7 @@ if (xp <= 1000) {
     xp = "Radiante";
 }
 
+nome = "Jessica";
+xp = 9610;
 
 console.log(`O herói ** ${nome} ** está no nível de ** ${xp} **.`);
